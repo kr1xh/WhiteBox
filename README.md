@@ -8,6 +8,8 @@ Important: All functions must handle both integers and floating-point numbers. I
 
 Floating-point precision: Due to binary representation limitations, some decimal numbers cannot be stored exactly (e.g., 0.1, 5.1). When the mathematical result should be a clean decimal but floating-point arithmetic introduces small errors (e.g., 1.0999999999999996 instead of 1.1), round to a reasonable precision (10-12 decimal places) before outputting. If the rounded result is a whole number, output it as an integer.
 
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 Input Format
 First line: integer Q (number of queries)
 Next Q lines: a [operator] b where a and b are numbers and [operator] is +, -, *, or /
