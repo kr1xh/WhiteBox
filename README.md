@@ -19,7 +19,8 @@ Floating-point precision: Due to binary representation limitations, some decimal
 <pre>
 Output Q numbers, one per line, representing the result of each query. Omit .0 from whole number results.
 </pre>
-Constraints
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 −
 10
 9
