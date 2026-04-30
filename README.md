@@ -1,4 +1,4 @@
-<h2><a href="https://whitebox.ac/problems/add-to-13"> 2. Add to 13</a></h2><h3>Easy1</h3>
+<h2><a href="https://whitebox.ac/problems/add-to-13"> 2. Add to 13</a></h2><h3>Easy 1</h3>
 
 
 Implement a calculator that supports four basic operations:
