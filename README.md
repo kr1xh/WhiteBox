@@ -23,8 +23,8 @@ Output Q numbers, one per line, representing the result of each query. Omit .0 f
 <p><strong>Constraints:</strong></p>
 −10^9≤a,b≤10^9
 <ul>
-	<li><code>-10<sup>9</sup> &lt;=a,b&lt;= 10<sup>9</sup></code></li>
-	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= a,b &lt;= 10<sup>9</sup></code></li>
+	<li><code>1 &lt;= Q &lt;= 10<sup>5</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li>
 </ul>
 The result will fit in a 32-bit signed integer
