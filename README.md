@@ -21,14 +21,13 @@ Output Q numbers, one per line, representing the result of each query. Omit .0 f
 </pre>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
-−10^9≤a,b≤10^9
 <ul>
 	<li><code>-10<sup>9</sup> &lt;= a,b &lt;= 10<sup>9</sup></code></li>
 	<li><code>1 &lt;= Q &lt;= 10<sup>5</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li>
+	<li><code>The result will fit in a 32-bit signed integer</code></li>
+	<li><code>All inputs will fit within 5 digits of precision.</code></li>
 </ul>
-The result will fit in a 32-bit signed integer
-All inputs will fit within 5 digits of precision.
 Examples
 Example 1
 Input:
