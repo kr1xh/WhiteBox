@@ -15,7 +15,7 @@ Floating-point precision: Due to binary representation limitations, some decimal
 Next Q lines: a [operator] b where a and b are numbers and [operator] is +, -, *, or /
 <strong>Output Format: </strong>
 Output Q numbers, one per line, representing the result of each query. Omit .0 from whole number results.
-
+</pre>
 Constraints
 −
 10
