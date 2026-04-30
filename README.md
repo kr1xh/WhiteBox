@@ -37,18 +37,21 @@ Output Q numbers, one per line, representing the result of each query. Omit .0 f
 <h2>Examples</h2>
 <p><strong>Example 1</strong></p>
 <pre>
+	<strong>First line:</strong>
 	4
 	6 + 7
     6 + 7.2
     5 - 4
 	5.1 - 4
 </pre>
+<pre>
+	<strong>Output:</strong>
+	13
+	13.2
+	1
+	1.1
+</pre>
 
-Output:
-13
-13.2
-1
-1.1
 Example 2
 Input:
 2
