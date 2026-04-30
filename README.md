@@ -10,10 +10,10 @@ Floating-point precision: Due to binary representation limitations, some decimal
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-Input Format
-First line: integer Q (number of queries)
+<pre>
+<strong>Input:</strong> First line: integer Q (number of queries)
 Next Q lines: a [operator] b where a and b are numbers and [operator] is +, -, *, or /
-Output Format
+<strong>Output Format: </strong>
 Output Q numbers, one per line, representing the result of each query. Omit .0 from whole number results.
 
 Constraints
