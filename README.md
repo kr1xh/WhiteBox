@@ -37,7 +37,7 @@ Output Q numbers, one per line, representing the result of each query. Omit .0 f
 <h2>Examples</h2>
 <p><strong>Example 1</strong></p>
 <pre>
-	<strong>First line:</strong>
+	<strong>Input:</strong>
 	4
 	6 + 7
     6 + 7.2
@@ -52,19 +52,28 @@ Output Q numbers, one per line, representing the result of each query. Omit .0 f
 	1.1
 </pre>
 
-Example 2
-Input:
-2
-4.5 * 2
-2.5 * 2.5
-Output:
-9
-6.25
-Example 3
-Input:
-2
-5 / 2
-4 / 2
-Output:
-2.5
-2
+<p><strong>Example 2</strong></p>
+<pre>
+	<strong>Input:</strong>
+	2
+	4.5 * 2
+	2.5 * 2.5
+</pre>
+<pre>
+	<strong>Output:</strong>
+	9
+	6.25
+</pre>
+
+<p><strong>Example 3</strong></p>
+<pre> 
+	<strong>Input:</strong>
+	2
+	5 / 2
+	4 / 2
+</pre>
+<pre>
+	<strong>Output:</strong>
+	2.5
+	2
+</pre>
