@@ -29,11 +29,9 @@ Output Q numbers, one per line, representing the result of each query. Omit .0 f
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 <ul>
-	<li><code>-10<sup>9</sup> &lt;= a,b &lt;= 10<sup>9</sup></code></li>
-	<li><code>1 &lt;= Q &lt;= 10<sup>5</sup></code></li>
-	<li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li>
-	<li><code>The result will fit in a 32-bit signed integer</code></li>
-	<li><code>All inputs will fit within 5 digits of precision.</code></li>
+	<li><code>RingBuffer(capacity)</code></li>
+	<li><code>Initializes an empty buffer with a maximum capacity of capacity.</code></li>
+	<li><code>capacity is guaranteed to be a positive integer.</code></li>
 </ul>
 <h2>Examples</h2>
 <p><strong>Example 1</strong></p>
