@@ -1,12 +1,15 @@
 <h2><a href="https://whitebox.ac/problems/add-to-13"> 2. Add to 13</a></h2><h3>Easy 1</h3>
 
 
-Implement a calculator that supports four basic operations:
 
+Implement a calculator that supports four basic operations:
+<pre>
 add(a, b)      // Returns a + b
 subtract(a, b) // Returns a - b
 multiply(a, b) // Returns a * b
-divide(a, b)   // Returns a / b (floating-point division, not integer division)
+divide(a, b)   // Returns a / b (floating-point division, not integer division) 
+</pre>
+
 Important: All functions must handle both integers and floating-point numbers. If the result is a whole number, output it as an integer (e.g., 4 not 4.0). Otherwise, output the decimal value (e.g., 2.5).
 
 Floating-point precision: Due to binary representation limitations, some decimal numbers cannot be stored exactly (e.g., 0.1, 5.1). When the mathematical result should be a clean decimal but floating-point arithmetic introduces small errors (e.g., 1.0999999999999996 instead of 1.1), round to a reasonable precision (10-12 decimal places) before outputting. If the rounded result is a whole number, output it as an integer.
