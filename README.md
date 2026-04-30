@@ -35,13 +35,15 @@ Output Q numbers, one per line, representing the result of each query. Omit .0 f
 	<li><code>All inputs will fit within 5 digits of precision.</code></li>
 </ul>
 <h2>Examples</h2>
-Example 1
-Input:
-4
-6 + 7
-6 + 7.2
-5 - 4
-5.1 - 4
+<p><strong>Example 1</strong></p>
+<pre>
+	4
+	6 + 7
+    6 + 7.2
+    5 - 4
+	5.1 - 4
+</pre>
+
 Output:
 13
 13.2
