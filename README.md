@@ -34,7 +34,7 @@ Output Q numbers, one per line, representing the result of each query. Omit .0 f
 	<li><code>The result will fit in a 32-bit signed integer</code></li>
 	<li><code>All inputs will fit within 5 digits of precision.</code></li>
 </ul>
-Examples
+<h2>Examples</h2>
 Example 1
 Input:
 4
