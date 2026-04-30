@@ -22,16 +22,28 @@ Floating-point precision: Due to binary representation limitations, some decimal
 <strong>Next Q lines: </strong> a [operator] b where a and b are numbers and [operator] is +, -, *, or /
 </pre>
 <p>&nbsp;</p>
-<p><strong class="example"> Output Format: </strong></p>
-<pre>
-Output Q numbers, one per line, representing the result of each query. Omit .0 from whole number results.
-</pre>
-<p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 <ul>
 	<li><code>RingBuffer(capacity)</code></li>
 	<li><code>Initializes an empty buffer with a maximum capacity of capacity.</code></li>
 	<li><code>capacity is guaranteed to be a positive integer.</code></li>
+</ul>
+<p>&nbsp;</p>
+<p><strong class="example">Methods:</strong></p>
+<pre>push(event)</pre>
+<ul>
+	Event is a **string** type.
+	Inserts a new event into the buffer.
+	If the buffer is already full, the **oldest event is dropped** before inserting the new one.
+	This operation produces no output.
+	<ul>
+		Print null.
+	</ul>
+	<pre>snapshot()</pre>
+	Returns all events currently stored in the buffer in **oldest → newest** order.
+	The returned events should be consecutive and space-separated when output.
+	Calling **snapshot()** must not modify the internal state of the buffer.
+	If the buffer is empty, print nothing (an empty line).
 </ul>
 <h2>Examples</h2>
 <p><strong>Example 1</strong></p>
