@@ -1,7 +1,7 @@
 # Put a ring on it.
-# Difficulty: Easy
+# Difficulty: Easy 1
 # Category: Basics
-# Topics: Basics, Data Structures, Done, Auto, Mark solved, Easy 1, Example 1, Input:, Output:, Accepted, Acceptance, Similar, Easy 1.5, Easy+ 2, Easy+ 2.5, Python 3.12, NORMAL, Execute, Submit, INPUT:, EXPECTED:, OUTPUT:, QUESTS, Resets in 12h 42m, 30 / 285 XP · 50 / 500 coins, 0/5
+# Topics: Basics, Data Structures, Done, Auto, Mark solved, Example 1, Input:, Output:, Accepted, Acceptance, Similar, Python 3.12, INPUT:, EXPECTED:, OUTPUT:, QUESTS, Resets in 12h 33m, 30 / 285 XP · 50 / 500 coins, 0/5, 10s, 256 MB, Jan 1, 2024, Google, 950.0ms, 51.2 MB
 # Source: https://whitebox.ac/problems/ringbuffer
 # Pushed by Whitebox→GitHub Extension
 import sys
