@@ -1,7 +1,7 @@
 # Put a ring on it.
 # Difficulty: Easy 1
 # Category: Basics
-# Topics: Basics, Data Structures, Done, Auto, Mark solved, Claim, Example 1, Input:, Output:, Accepted, Acceptance, Next up, C++ 17, INPUT:, EXPECTED:, OUTPUT:, QUESTS, Resets in 13h 24m, 30 / 240 XP · 50 / 400 coins, 0/1, 10s, 256 MB, Jan 1, 2024, Google, 3.0ms, 944 KB
+# Topics: Basics, Data Structures, Done, Auto, Mark solved, Claim, Example 1, Input:, Output:, Accepted, Acceptance, Next up, C++ 17, INPUT:, EXPECTED:, OUTPUT:, QUESTS, Resets in 13h 23m, 30 / 240 XP · 50 / 400 coins, 0/1, 10s, 256 MB, Jan 1, 2024, Google, 3.0ms, 944 KB
 # Source: https://whitebox.ac/problems/ringbuffer
 # Pushed by Whitebox→GitHub Extension
 capacity = cap;
@@ -14,9 +14,9 @@ public:
     int capacity;
     int start;   // index of oldest element
 private:
-using namespace std;
+        start = 0;
+        count = 0;
+    }
 
-class RingBuffer {
-#include <vector>
-#include <string>
-#include <iostream>
+    void push(string event) {
+        if (count < capacity) {
