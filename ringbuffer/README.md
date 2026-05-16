@@ -1,7 +1,7 @@
 # Put a ring on it.
 
 **Difficulty:** Easy 1
-**Topics:** `Basics` | `Data Structures` | `Done` | `Auto` | `Mark solved` | `Claim` | `Example 1` | `Input:` | `Output:` | `Accepted` | `Acceptance` | `Next up` | `Python 3.12` | `Input` | `Expected Output` | `Custom Test Cases:` | `QUESTS` | `Resets in 13h 28m` | `30 / 240 XP · 50 / 400 coins` | `0/1` | `10s` | `256 MB` | `Jan 1, 2024` | `Google`
+**Topics:** `Basics` | `Data Structures` | `Done` | `Auto` | `Mark solved` | `Claim` | `Example 1` | `Input:` | `Output:` | `Accepted` | `Acceptance` | `Next up` | `C++ 17` | `INPUT:` | `EXPECTED:` | `OUTPUT:` | `QUESTS` | `Resets in 13h 24m` | `30 / 240 XP · 50 / 400 coins` | `0/1` | `10s` | `256 MB` | `Jan 1, 2024` | `Google` | `3.0ms` | `944 KB`
 
 ---
 
@@ -33,6 +33,7 @@ push(event)
 
 [View on Whitebox](https://whitebox.ac/problems/ringbuffer)
 
-## Solution
+## Solutions
 
-See [`ringbuffer.py`](./ringbuffer.py) for the RingBuffer(capacity) implementation.
+- [JavaScript](./ringbuffer.js)
+- [Python](./ringbuffer.py)
