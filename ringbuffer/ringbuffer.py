@@ -7,13 +7,15 @@
 self.size += 1
             idx = (self.start + self.size) % self.capacity
             self.buffer[idx] = event
-    def push(self, event):
         if self.size < self.capacity:
-        self.size = 0
+        else:
+            self.buffer[self.start] = event
+            self.start = (self.start + 1) % self.capacity
+        print("null")
 
-        self.capacity = capacity
-        self.buffer = [None] * capacity
-        self.start = 0 
-class RingBuffer:
-    def __init__(self, capacity):
-import sys
+    def snapshot(self):
+        result = []
+        for i in range(self.size):
+            idx = (self.start + i) % self.capacity
+            result.append(self.buffer[idx])
+        print(" ".join(result))
