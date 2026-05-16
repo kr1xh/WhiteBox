@@ -11,9 +11,11 @@ self.size += 1
         if self.size < self.capacity:
         self.size = 0
 
-        self.capacity = capacity
-        self.buffer = [None] * capacity
         self.start = 0 
-class RingBuffer:
-    def __init__(self, capacity):
-import sys
+        else:
+            self.buffer[self.start] = event
+            self.start = (self.start + 1) % self.capacity
+        print("null")
+
+    def snapshot(self):
+        result = []
