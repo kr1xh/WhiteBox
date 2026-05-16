@@ -1,38 +1,19 @@
-# Put a ring on it.
+# Daily Quests
 
-**Difficulty:** Easy 1
-**Topics:** `Basics` | `Data Structures` | `Done` | `Auto` | `Mark solved` | `Claim` | `Example 1` | `Input:` | `Output:` | `Accepted` | `Acceptance` | `Next up` | `Python 3.12` | `Input` | `Expected Output` | `Custom Test Cases:` | `QUESTS` | `Resets in 14h 25m` | `30 / 240 XP · 50 / 400 coins` | `0/1` | `10s` | `256 MB` | `Jan 1, 2024` | `Google`
+**Difficulty:** Unknown
+**Topics:** `Done` | `Auto` | `Mark solved` | `Claim` | `C++ 17` | `Submitting...` | `QUESTS` | `Resets in 14h 16m` | `30 / 240 XP · 50 / 400 coins` | `0/1` | `Python3`
 
 ---
 
-Implement RingBuffer, a fixed-capacity ring buffer for events. The buffer stores events in insertion order and automatically drops the oldest event when full.
-This problem focuses on stateful component behavior and clear policy enforcement rather than algorithmic tricks.
-
-## Constructor
-
-```
-RingBuffer(capacity)
-```
-
-- Initializes an empty buffer with a maximum capacity of capacity. - capacity is guaranteed to be a positive integer.
-
-## Methods
-
-```
-push(event)
-```
-
-- Event is a string type. - Inserts a new event into the buffer. - If the buffer is already full, the oldest event is dropped before inserting the new one. - This operation produces no output. Print null. snapshot() - Returns all events currently stored in the buffer in oldest → newest order. - The returned events should be consecutive and space-separated when output. - Calling snapshot() must not modify the internal state of the buffer. - If the buffer is empty, print nothing (an empty line).
-
-## Notes
-
-- You may assume single-threaded usage.
-- The internal storage representation is up to you.
+You solved this problem!
+Share your approach to help others learn
+Write Editorial Status Language Runtime Memory Submitted  Accepted Python3  1072 ms  51.5 MB May 14, 2026, 12:10 PM Accepted Python3  1016 ms  51.5 MB May 14, 2026, 12:10 PM Accepted Python3  1055 ms  51.3 MB Apr 29, 2026, 01:40 AM
 
 ## Source
 
 [View on Whitebox](https://whitebox.ac/problems/ringbuffer)
 
-## Solution
+## Solutions
 
-See [`ringbuffer.py`](./ringbuffer.py) for the RingBuffer(capacity) implementation.
+- [JavaScript](./ringbuffer.js)
+- [Python](./ringbuffer.py)
