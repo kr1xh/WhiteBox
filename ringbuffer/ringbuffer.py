@@ -4,18 +4,18 @@
 # Topics: Basics, Data Structures, Done, Auto, Mark solved, Claim, Example 1, Input:, Output:, Accepted, Acceptance, Next up, Python 3.12, Input, Expected Output, Custom Test Cases:, QUESTS, Resets in 13h 48m, 30 / 240 XP · 50 / 400 coins, 0/1, 10s, 256 MB, Jan 1, 2024, Google
 # Source: https://whitebox.ac/problems/ringbuffer
 # Pushed by Whitebox→GitHub Extension
-self.size += 1
-            idx = (self.start + self.size) % self.capacity
-            self.buffer[idx] = event
-    def push(self, event):
-        if self.size < self.capacity:
-        self.size = 0
-
-        self.capacity = capacity
-        self.buffer = [None] * capacity
-        self.start = 0 
-    def __init__(self, capacity):
-        else:
-            self.buffer[self.start] = event
+self.buffer[self.start] = event
             self.start = (self.start + 1) % self.capacity
         print("null")
+
+    def snapshot(self):
+        result = []
+        for i in range(self.size):
+            idx = (self.start + i) % self.capacity
+            self.buffer[idx] = event
+            self.size += 1
+        else:
+        if self.size < self.capacity:
+            idx = (self.start + self.size) % self.capacity
+
+    def push(self, event):
