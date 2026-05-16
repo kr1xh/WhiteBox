@@ -1,21 +1,22 @@
 # Put a ring on it.
 # Difficulty: Easy 1
 # Category: Basics
-# Topics: Basics, Data Structures, Done, Auto, Mark solved, Claim, Example 1, Input:, Output:, Accepted, Acceptance, Next up, Python 3.12, Input, Expected Output, Custom Test Cases:, QUESTS, Resets in 13h 28m, 30 / 240 XP · 50 / 400 coins, 0/1, 10s, 256 MB, Jan 1, 2024, Google
+# Topics: Basics, Data Structures, Done, Auto, Mark solved, Claim, Example 1, Input:, Output:, Accepted, Acceptance, Next up, C++ 17, INPUT:, EXPECTED:, OUTPUT:, QUESTS, Resets in 13h 24m, 30 / 240 XP · 50 / 400 coins, 0/1, 10s, 256 MB, Jan 1, 2024, Google, 3.0ms, 944 KB
 # Source: https://whitebox.ac/problems/ringbuffer
 # Pushed by Whitebox→GitHub Extension
-self.size += 1
-            self.buffer[idx] = event
-        else:
-            self.buffer[self.start] = event
-            self.start = (self.start + 1) % self.capacity
-        print("null")
+capacity = cap;
+        buffer.resize(capacity);
+public:
+    RingBuffer(int cap) {
+    int count;   // current number of elements
 
-    def snapshot(self):
-        result = []
-        for i in range(self.size):
-            idx = (self.start + i) % self.capacity
-            result.append(self.buffer[idx])
-        print(" ".join(result))
+    vector<string> buffer;
+    int capacity;
+    int start;   // index of oldest element
+private:
+using namespace std;
 
-lines = sys.stdin.read().strip().split('\n')
+class RingBuffer {
+#include <vector>
+#include <string>
+#include <iostream>
