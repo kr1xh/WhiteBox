@@ -1,7 +1,7 @@
 # Put a ring on it.
 
 **Difficulty:** Easy 1
-**Topics:** `Basics` | `Data Structures` | `Hint` | `Review` | `Explain` | `Done` | `Auto` | `Mark solved` | `Claim` | `Example 1` | `Input:` | `Output:` | `Accepted` | `Acceptance` | `Next up` | `Python 3.12` | `QUESTS` | `Resets in 13h 50m` | `30 / 240 XP · 50 / 400 coins` | `0/1` | `10s` | `256 MB` | `Jan 1, 2024` | `Google`
+**Topics:** `Basics` | `Data Structures` | `Done` | `Auto` | `Mark solved` | `Claim` | `Example 1` | `Input:` | `Output:` | `Accepted` | `Acceptance` | `Next up` | `Python 3.12` | `Input` | `Expected Output` | `Custom Test Cases:` | `QUESTS` | `Resets in 13h 50m` | `30 / 240 XP · 50 / 400 coins` | `0/1` | `10s` | `256 MB` | `Jan 1, 2024` | `Google`
 
 ---
 
