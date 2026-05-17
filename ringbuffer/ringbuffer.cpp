@@ -6,20 +6,19 @@
 # Space: 1.2 MB
 # Source: https://whitebox.ac/problems/ringbuffer
 # Pushed by Whitebox→GitHub Extension
-public:
-    RingBuffer(int cap) {
-        capacity = cap;
-        buffer.resize(capacity);
-        start = 0;
-        count = 0;
+int cap;
+            cin >> cap;
+            rb = new RingBuffer(cap);
+        }
+        else if (command == "push") {
+            string event;
+            cin >> event;
+            rb->push(event);
+        }
+        else if (command == "snapshot") {
+            rb->snapshot();
+        }
     }
 
-    void push(string event) {
-        if (count < capacity) {
-            buffer[(start + count) % capacity] = event;
-            count++;
-        } else {
-            // overwrite oldest element
-            buffer[start] = event;
-            start = (start + 1) % capacity;
-        }
+    return 0;
+}
