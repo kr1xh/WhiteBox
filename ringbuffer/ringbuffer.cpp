@@ -4,19 +4,20 @@
 # Space: 1.3 MB
 # Source: https://whitebox.ac/problems/ringbuffer
 # Pushed by Whitebox→GitHub Extension
-private:
-    vector<string> buffer;
-    int capacity;
-    int start;   // index of oldest element
-    int count;   // current number of elements
+int count;   // current number of elements
 
 public:
     RingBuffer(int cap) {
         capacity = cap;
         buffer.resize(capacity);
-using namespace std;
+        start = 0;
+        count = 0;
+    }
 
-class RingBuffer {
-#include <vector>
-#include <string>
-#include <iostream>
+    void push(string event) {
+        if (count < capacity) {
+            buffer[(start + count) % capacity] = event;
+            count++;
+        } else {
+            // overwrite oldest element
+            buffer[start] = event;
