@@ -1,23 +1,22 @@
-# Accepted
-# Difficulty: Unknown
-# Category: C++ 17
-# Topics: C++ 17, INPUT:, EXPECTED:, OUTPUT:, 3.0ms, 996 KB
+# Put a ring on it.
+# Difficulty: Easy 1
+# Category: Basics
+# Topics: Basics, Data Structures
 # Source: https://whitebox.ac/problems/ringbuffer
 # Pushed by Whitebox→GitHub Extension
-int cap;
-            cin >> cap;
-            rb = new RingBuffer(cap);
-        }
-        else if (command == "push") {
-            string event;
-            cin >> event;
-            rb->push(event);
-        }
-        else if (command == "snapshot") {
-            rb->snapshot();
-        }
-    }
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
 
-    return 0;
-    while (cin >> command) {
-        if (command == "RingBuffer") {
+class RingBuffer {
+private:
+    vector<string> buffer;
+    int capacity;
+    int start;   // index of oldest element
+    int count;   // current number of elements
+
+public:
+    RingBuffer(int cap) {
+        capacity = cap;
+        buffer.resize(capacity);
