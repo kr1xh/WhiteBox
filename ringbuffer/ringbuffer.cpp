@@ -1,15 +1,9 @@
-# Put a ring on it.
-# Difficulty: Easy 1
-# Category: Basics
-# Topics: Basics, Data Structures
+# Ringbuffer
+# Difficulty: Unknown
+# Time: 5 ms
+# Space: 1.3 MB
 # Source: https://whitebox.ac/problems/ringbuffer
 # Pushed by Whitebox→GitHub Extension
-#include <iostream>
-#include <vector>
-#include <string>
-using namespace std;
-
-class RingBuffer {
 private:
     vector<string> buffer;
     int capacity;
@@ -20,3 +14,9 @@ public:
     RingBuffer(int cap) {
         capacity = cap;
         buffer.resize(capacity);
+using namespace std;
+
+class RingBuffer {
+#include <vector>
+#include <string>
+#include <iostream>
