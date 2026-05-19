@@ -10,7 +10,6 @@ public:
     RingBuffer(int cap) {
         capacity = cap;
         buffer.resize(capacity);
-        start = 0;
     vector<string> buffer;
     int capacity;
     int start;   // index of oldest element
@@ -20,3 +19,4 @@ using namespace std;
 
 #include <vector>
 #include <string>
+#include <iostream>
