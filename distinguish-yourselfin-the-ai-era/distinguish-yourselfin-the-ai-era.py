@@ -1,0 +1,7 @@
+# Distinguish yourselfin the AI era.
+# Difficulty: Hard 5
+# Category: Data Structures
+# Topics: Data Structures, Memory Management, Normal+ 4.5, Interview Transferability, Implementation Problems, Real systems, not toy puzzles, Skill Rating, How you compare to other candidates, Tsuki AI Tutor, AI Mock Interviews, Practice speaking under pressure, Problem Sourcing, Interview Intel, Real questions from recent interviews, Structured Roadmap, A clear path to mastery, Gamification Stay motivated long-term, Gamification, Stay motivated long-term, Pricing Cost to access, Pricing, Cost to access, 1 Easy, 2 Easy+, 3 Normal, 4 Normal+, 5 Hard, 6 Harder, 7 Insane, 8 Expert, 9 Master, 10 Grandmaster, 11 Glitched, 12 Mythic, 13 Mythic+, 14 Legendary, NEW, SOON, Join our Discord server!, Our Philosophy, 10s, 256 MB, Mar 9, 2026, Optiver, Most popular
+# Source: https://whitebox.ac/
+# Pushed by Whitebox→GitHub Extension
+SkipList(seed)
