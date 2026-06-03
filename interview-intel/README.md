@@ -1,21 +1,22 @@
 # Interview Intel
 
 **Difficulty:** Unknown
-**Topics:** `Auto` | `Done` | `QUESTS` | `Resets in 0h 46m` | `60 / 330 XP · 100 / 550 coins` | `0/1` | `NEW` | `SOON` | `4,695` | `Quiz  Verified` | `Quiz` | `Verified` | `Quiz In Domain Knowledge ↗` | `In Domain Knowledge ↗`
+**Topics:** `Auto` | `Done` | `QUESTS` | `Resets in 0h 42m` | `60 / 330 XP · 100 / 550 coins` | `0/1` | `NEW` | `SOON` | `4,695` | `Quiz  Verified` | `Quiz` | `Verified`
 
 ---
 
 ?    Quiz  Verified
-What is a global phase?
-Question: Why does global phase usually not affect measurement results?
-A) Because it deletes the quantum state
-B) Because it creates a new qubit
-C) Because multiplying the entire quantum state by the same phase does not change measurement…
+What are measurement counts?
+Question: What are measurement counts in a quantum experiment?
+A) The number of gates in a circuit
+B) The number of qubits on a chip
+C) The frequency of each measured bitstring over repeated shots
+D) The number of classical variables in Py…
 Anonymous · quantum computing · Difficulty 3/10
 
 ## Source
 
-[View on Whitebox](https://whitebox.ac/intel?page=2)
+[View on Whitebox](https://whitebox.ac/intel?kind=quiz)
 
 ## Solution
 
