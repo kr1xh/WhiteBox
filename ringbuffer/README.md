@@ -5,7 +5,7 @@
 
 ---
 
-Description Solutions Submissions Solvers 98
+Description Solutions Submissions Solvers 96
 Put a ring on it.
 10s  256 MB      Easy 1   Jan 1, 2024   BasicsData Structures Google 💬 Interviewed at Google? Share your experience, earn coins. →
 Implement RingBuffer, a fixed-capacity ring buffer for events. The buffer stores events in insertion order and automatically drops the oldest event when full.
@@ -50,7 +50,7 @@ null
 null
 null
 b c
-Accepted 100/184   Acceptance 54% Next up Know your limits. (Easy version) Similar problem      Easy 1.5Know your limits. (Hard version) Similar problem      Easy+ 2Pixel Budget Similar problem      Easy+ 2.5
+Accepted 98/178   Acceptance 55% Next up Know your limits. (Easy version) Similar problem      Easy 1.5Know your limits. (Hard version) Similar problem      Easy+ 2Pixel Budget Similar problem      Easy+ 2.5
 ```
 
 ## Source
