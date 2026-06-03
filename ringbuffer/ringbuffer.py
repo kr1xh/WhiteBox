@@ -1,9 +1,15 @@
-# Put a ring on it.
+# Put a ring on it.   10s  256 MB
 # Difficulty: Easy 1
 # Category: Basics
-# Topics: Basics, Data Structures, Done, Auto, Mark solved, Claim, Example 1, Input:, Output:, Accepted, Acceptance, Next up, C++ 17, INPUT:, EXPECTED:, OUTPUT:, QUESTS, Resets in 23h 27m, 30 / 240 XP · 50 / 400 coins, 0/1, 10s, 256 MB, Jan 1, 2024, Google, 3.0ms, 944 KB
+# Topics: Basics, Data Structures
 # Source: https://whitebox.ac/problems/ringbuffer
 # Pushed by Whitebox→GitHub Extension
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+class RingBuffer {
 private:
     vector<string> buffer;
     int capacity;
@@ -15,8 +21,3 @@ public:
         capacity = cap;
         buffer.resize(capacity);
         start = 0;
-        count = 0;
-    }
-
-    void push(string event) {
-        if (count < capacity) {
