@@ -4,19 +4,13 @@
 # Topics: Basics, Data Structures
 # Source: https://whitebox.ac/problems/ringbuffer
 # Pushed by Whitebox→GitHub Extension
-int count;   // current number of elements
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
 
-public:
-    RingBuffer(int cap) {
-        capacity = cap;
-        buffer.resize(capacity);
-    vector<string> buffer;
-    int capacity;
-    int start;   // index of oldest element
-class RingBuffer {
+class RingBuffer {
 private:
-using namespace std;
-
-#include <vector>
-#include <string>
-#include <iostream>
+    vector<string> buffer;
+    int capacity;
+    int start;   // index of oldest element
