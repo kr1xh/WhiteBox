@@ -1,48 +1,34 @@
 # Distinguish yourselfin the AI era.
 
 **Difficulty:** Hard 5
-**Topics:** `Data Structures` | `Design Patterns` | `Book` | `Auto` | `Claim` | `Normal+ 4.5` | `Interview Transferability` | `Implementation Problems` | `Real systems, not toy puzzles` | `Skill Rating` | `How you compare to other candidates` | `Tsuki AI Tutor` | `AI Mock Interviews` | `Practice speaking under pressure` | `Problem Sourcing` | `Interview Intel` | `Real questions from recent interviews` | `Structured Roadmap` | `A clear path to mastery` | `Gamification Stay motivated long-term` | `Gamification` | `Stay motivated long-term` | `Pricing Cost to access` | `Pricing` | `Cost to access` | `1 Easy` | `2 Easy+` | `3 Normal` | `4 Normal+` | `5 Hard` | `6 Harder` | `7 Insane` | `8 Expert` | `9 Master` | `10 Grandmaster` | `11 Glitched` | `12 Mythic` | `13 Mythic+` | `14 Legendary` | `QUESTS` | `Resets in 1h 35m` | `0 / 330 XP · 0 / 550 coins` | `0/1` | `NEW` | `SOON` | `4,595` | `Join our Discord server!` | `Our Philosophy` | `10s` | `256 MB` | `Meta` | `Most popular`
+**Topics:** `Data Structures` | `Memory Management` | `Auto` | `Done` | `Normal+ 4.5` | `Interview Transferability` | `Implementation Problems` | `Real systems, not toy puzzles` | `Skill Rating` | `How you compare to other candidates` | `Tsuki AI Tutor` | `AI Mock Interviews` | `Practice speaking under pressure` | `Problem Sourcing` | `Interview Intel` | `Real questions from recent interviews` | `Structured Roadmap` | `A clear path to mastery` | `Gamification Stay motivated long-term` | `Gamification` | `Stay motivated long-term` | `Pricing Cost to access` | `Pricing` | `Cost to access` | `1 Easy` | `2 Easy+` | `3 Normal` | `4 Normal+` | `5 Hard` | `6 Harder` | `7 Insane` | `8 Expert` | `9 Master` | `10 Grandmaster` | `11 Glitched` | `12 Mythic` | `13 Mythic+` | `14 Legendary` | `QUESTS` | `Resets in 23h 23m` | `60 / 330 XP · 100 / 550 coins` | `0/1` | `NEW` | `SOON` | `4,695` | `Join our Discord server!` | `Our Philosophy` | `10s` | `256 MB` | `Mar 9, 2026` | `Optiver` | `Most popular`
 
 ---
 
-Problem contributed by @yuta_is_a_bum
-Implement FileSystem, an in-memory hierarchical file system that supports basic UNIX-like file and directory operations.
-Description
-Design an in-memory file system that stores everything in RAM and supports hierarchical directories and files identified by absolute paths (like /a/b/c).
-This problem is divided into multiple parts. Each part builds on the previous one.
+Implement SkipList, a probabilistic sorted data structure that supports fast search, insertion, and deletion by maintaining multiple layers of linked lists with express lanes.
+This problem focuses on layered data structure mechanics and correct PRNG-driven level generation.
 
 ## Constructor
 
 ```
-FileSystem()
+SkipList(seed)
 ```
 
-- Initializes an empty file system. Part 1: Basic File System Operations
+- seed is an unsigned 32-bit integer. - Initializes an empty skip list with the given PRNG seed. - The skip list should support up to 16 levels (levels 0 through 15). - Level 0 is the bottom level containing all elements. Level Generation Each time a new value is successfully inserted (not a duplicate), generate its level as follows: - Advance the PRNG state before using it: seed = seed * 1103515245 + 12345 The multiplication and addition should be performed using unsigned 32-bit arithmetic (i.e. mod 2^32). - Compute the level by counting the number of trailing 1-bits in the updated seed, capped at 15. Example: if seed in binary ends in ...0111, the level is 3. If seed is 0, the level is 0. If all 32 bits are 1, the level is 15 (capped). The PRNG state is shared across all insertions and advances only on successful inserts (not on duplicates, removes, searches, or displays).
 
 ## Methods
 
 ```
-ls(path)
+insert(value)
 ```
 
-- Returns the contents of the directory at path. - If path is a directory, return a list of names of files and directories directly under it. - If path is a file, return a list containing only the file name. - The returned list must be sorted lexicographically. mkdir(path) - Creates a directory at path. - If intermediate directories do not exist, create them automatically. - If the directory already exists, do nothing. addContentToFile(filePath, content) - Creates or appends content to a file at filePath. - If the file does not exist, create it and write content. - If the file already exists, append content to its existing contents. - Any missing intermediate directories in filePath must be created automatically. - Input format: Content is enclosed in double quotes. Use \n for newlines, \t for tabs, \\ for backslash, and \" for quotes within the content. readContentFromFile(filePath) - Returns the full content of the file at filePath. Example Usage FileSystem() ls("/")                      // returns [] mkdir("/a/b/c") addContentToFile("/a/b/c/d", "hello") ls("/")                      // returns ["a"] readContentFromFile("/a/b/c/d")        // returns "hello" addContentToFile("/a/b/c/d", " world") readContentFromFile("/a/b/c/d")        // returns "hello world" Part 2: File and Directory Manipulation Extend your implementation with the following operations: rm(path) - Removes the file or directory at path. - If path refers to a file, delete the file. - If path refers to a directory, delete the directory and all of its contents recursively. mv(source, destination) - Moves or renames a file or directory. - source is an existing file or directory path. - destination is the new path. - If destination already exists as a directory, move source inside it. Example: mv("/a/x", "/b") moves /a/x to /b/x if /b is a directory. - Otherwise, treat destination as a rename to that exact path. Example: mv("/a/x", "/a/y") renames /a/x to /a/y. Part 3: File Metadata Extend the file system to track metadata for all files and directories.
-
-## Methods
-
-```
-getSize(path)
-```
-
-- If path is a file, return the size of the file (number of characters in its content). - If path is a directory, return the total size of all files contained within it (recursively). getLastModified(path) - Returns the timestamp of the most recent modification to the file or directory. - Modifications include: creation deletion (of any descendant should update ancestors as well, since directory contents changed) content updates moves / renames Timestamp Parameter For operations that modify the file system (in Part 3), an optional timestamp parameter may be provided: - addContentToFile(filePath, content, timestamp) - mkdir(path, timestamp) - rm(path, timestamp) - mv(source, destination, timestamp) When a timestamp is provided, use it to update the lastModified metadata. If not provided, you may use any monotonically increasing value. Creation Time Tracking Track and store the creation time for all files and directories.
+- value is an int type. - If value already exists in the skip list, do nothing (do not advance the PRNG). - Otherwise, generate a level using the procedure above, then insert the node into levels 0 through that level (inclusive). - Print null. remove(value) - value is an int type. - Removes value from all levels of the skip list. - If value does not exist, do nothing. - Print null. search(value) - value is an int type. - Returns true if value exists in the skip list, false otherwise. - The search must start from the highest occupied level and traverse forward and down — not simply scan level 0. display() - Prints each occupied level of the skip list on its own line, from the highest level down to level 0. - Each line should be formatted as Level {L}: followed by the values on that level in ascending order, space-separated. - If the skip list is empty, print nothing (an empty line).
 
 ## Notes
 
-- All paths are absolute and start with /.
-- File and directory names consist only of lowercase English letters.
-- You may assume all inputs are valid.
-- Timestamps are monotonically increasing.
-- There are no constraints on how files or directories must be stored internally.
-- Correctness, clarity, and proper handling of hierarchical rel
+- The PRNG is a standard linear congruential generator. Getting the unsigned 32-bit wraparound correct is critical.
+- How you represent nodes and forward pointers is up to you.
+- You may assume single-threaded usage.
 
 ## Source
 
@@ -50,4 +36,4 @@ getSize(path)
 
 ## Solution
 
-See [`distinguish-yourselfin-the-ai-era.py`](./distinguish-yourselfin-the-ai-era.py) for the FileSystem() implementation.
+See [`distinguish-yourselfin-the-ai-era.py`](./distinguish-yourselfin-the-ai-era.py) for the SkipList(seed) implementation.
