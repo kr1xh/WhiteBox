@@ -1,7 +1,7 @@
 # kr1xh
 
 **Difficulty:** Easy 1
-**Topics:** `Do:` | `Avoid:` | `Claimed today` | `BasicsData Structures` | `Basics` | `Data Structures` | `Auto` | `Claim` | `Mark solved` | `POWER LEVEL` | `XP` | `RANK` | `SOLVED` | `ACCURACY` | `BEST STREAK` | `QUIZ SOLVED` | `QUIZ ACCURACY` | `PROB SOLVED` | `char III → char MAX` | `Mixed` | `Jan` | `Feb` | `Mar` | `Apr` | `May` | `Jun` | `Jul` | `Aug` | `Sep` | `Oct` | `Nov` | `Dec` | `M  W  F` | `QUESTS` | `Resets in 22h 42m` | `0 / 225 XP · 0 / 400 coins` | `0/5` | `0/1` | `NEW` | `SOON` | `4,695` | `char III RANK` | `char III` | `char MAX` | `+90 today`
+**Topics:** `Basics` | `BasicsData Structures` | `Data Structures` | `Auto` | `Done` | `POWER LEVEL` | `XP` | `RANK` | `SOLVED` | `ACCURACY` | `BEST STREAK` | `QUIZ SOLVED` | `QUIZ ACCURACY` | `PROB SOLVED` | `short I → short II` | `Aug` | `Mon` | `Jan` | `Feb` | `Mar` | `Apr` | `May` | `Jun` | `Jul` | `Sep` | `Oct` | `Nov` | `Dec` | `M  W  F` | `QUESTS` | `Resets in 21h 57m` | `120 / 270 XP · 200 / 450 coins` | `0/1` | `NEW` | `White RoomNEW` | `short I RANK` | `short I` | `short II` | `+191 today`
 
 ---
 
@@ -11,4 +11,4 @@
 
 ## Solution
 
-See [`kr1xh.py`](./kr1xh.py) for the Python implementation.
+See [`kr1xh.cpp`](./kr1xh.cpp) for the Python implementation.
