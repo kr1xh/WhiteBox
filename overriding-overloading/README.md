@@ -1,23 +1,61 @@
-# It's over for you. (if you can't do this)
+# Accepted
 
 **Difficulty:** Unknown
-**Topics:** `Basics  Millennium` | `Basics` | `Auto` | `Mark solved` | `Done` | `Accepted` | `Acceptance` | `Next up` | `C++ 23` | `Whiteboard` | `QUESTS` | `Resets in 21h 58m` | `60 / 270 XP · 100 / 450 coins` | `0/1` | `10s` | `256 MB` | `Jan 1, 2024` | `18.0ms`
+**Topics:** `Auto` | `Done` | `of C++ 23 solutions` | `Runtime` | `Memory` | `Language` | `Tests` | `C++ 23` | `Whiteboard` | `QUESTS` | `Resets in 21h 58m` | `120 / 270 XP · 200 / 450 coins` | `0/1` | `20.0ms`
+
+> **Runtime:** 20 ms &nbsp;|&nbsp; **Memory:** N/A
 
 ---
 
-Statement
-You are given a base class box that defines a method foo() returning 0.
-Implement a derived class whitebox that:
-- Overrides foo() so that calling foo() on a whitebox instance (even when it is referenced as a box) returns 1 instead of 0;
-- Overloads foo() with a version that accepts a number and returns that number added by 1.
-You do not need to write any input/output parsing.
-NOTE: The starter code is not necessarily complete. You are expected to edit it.
-Example (cpp):
-C++
-whitebox wb;
-box& b = wb;
-b.foo() // should return 1
-b.foo(2) // should return 3
+Accepted
+2 / 2 test cases passed | Aug 10, 2026, 04:31 PM
+Beats 11% of C++ 23 solutions Runtime 20 ms Memory 0 KB Language C++23 Tests 2 / 2 Runtime distribution your runtime 20 ms
+SUBMITTED CODE
+Copy 1
+class box {
+2
+public:
+3
+virtual int foo() {
+4
+return 0;
+5
+}
+6
+7
+virtual int foo(int x) {
+8
+return x;
+9
+}
+10
+11
+virtual ~box() = default;
+12
+};
+13
+14
+class whitebox : public box {
+15
+public:
+16
+int foo() override {
+17
+return 1;
+18
+}
+19
+20
+int foo(int x) override {
+21
+return x + 1;
+22
+}
+23
+};
+Share this solution
+Write an editorial to help others understand your approach
+Write Editorial
 
 ## Source
 
