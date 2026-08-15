@@ -1,7 +1,7 @@
 # Blackjack
 
 **Difficulty:** Unknown
-**Topics:** `Auto` | `Done` | `BLACKJACK` | `DEALER` | `YOU` | `QUESTS` | `Resets in 22h 25m` | `120 / 270 XP · 200 / 450 coins` | `0/1` | `NEW` | `White RoomNEW`
+**Topics:** `Auto` | `Done` | `BLACKJACK` | `DEALER` | `YOU` | `QUESTS` | `Resets in 22h 24m` | `120 / 270 XP · 200 / 450 coins` | `0/1` | `NEW` | `White RoomNEW`
 
 ---
 
