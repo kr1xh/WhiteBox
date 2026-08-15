@@ -1,7 +1,7 @@
 # Know your limits. (Easy version)
 
 **Difficulty:** Unknown
-**Topics:** `BasicsData Structures +1 Akuna Capital` | `Basics` | `Data Structures` | `+1` | `Auto` | `Done` | `Explanation` | `Accepted` | `Acceptance` | `Next up` | `Normal 3` | `Python 3.12` | `Whiteboard` | `QUESTS` | `Resets in 20h 21m` | `120 / 270 XP · 200 / 450 coins` | `0/1` | `10s` | `256 MB` | `Jan 1, 2024` | `22.0ms`
+**Topics:** `BasicsData Structures +1 Akuna Capital` | `Basics` | `Data Structures` | `+1` | `Auto` | `Done` | `Explanation` | `Accepted` | `Acceptance` | `Next up` | `Normal 3` | `Python 3.12` | `Whiteboard` | `QUESTS` | `Resets in 20h 20m` | `120 / 270 XP · 200 / 450 coins` | `0/1` | `10s` | `256 MB` | `Jan 1, 2024` | `22.0ms`
 
 ---
 
