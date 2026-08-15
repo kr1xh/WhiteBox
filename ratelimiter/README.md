@@ -1,7 +1,7 @@
 # Accepted
 
 **Difficulty:** Unknown
-**Topics:** `Auto` | `Done` | `of C++ 23 solutions` | `Runtime` | `Memory` | `Language` | `Tests` | `C++ 23` | `Whiteboard` | `QUESTS` | `Resets in 19h 37m` | `120 / 270 XP · 200 / 450 coins` | `0/1` | `15.0ms`
+**Topics:** `Auto` | `Done` | `of C++ 23 solutions` | `Runtime` | `Memory` | `Language` | `Tests` | `C++ 23` | `Whiteboard` | `QUESTS` | `Resets in 17h 39m` | `120 / 270 XP · 200 / 450 coins` | `0/1` | `15.0ms`
 
 > **Runtime:** 15 ms &nbsp;|&nbsp; **Memory:** N/A
 
